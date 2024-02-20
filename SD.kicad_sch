@@ -330,6 +330,10 @@
     (stroke (width 0) (type default))
     (uuid 052a1742-809c-4a4c-b693-6707141b53f9)
   )
+  (wire (pts (xy 160.655 106.68) (xy 160.655 106.045))
+    (stroke (width 0) (type default))
+    (uuid 15030d5e-8443-49dc-bf09-f973ab351eec)
+  )
   (wire (pts (xy 92.075 95.885) (xy 92.075 97.155))
     (stroke (width 0) (type default))
     (uuid 1c55c674-aacf-4e80-9fac-ca71e2b81e35)
@@ -345,6 +349,10 @@
   (wire (pts (xy 92.075 90.805) (xy 116.84 90.805))
     (stroke (width 0) (type default))
     (uuid 3044c408-6d80-4c0f-88f7-eb887beee6dd)
+  )
+  (wire (pts (xy 160.655 106.045) (xy 160.02 106.045))
+    (stroke (width 0) (type default))
+    (uuid 44f0e1cd-43bd-483c-9ff9-1550ecf8672c)
   )
   (wire (pts (xy 115.57 88.265) (xy 116.84 88.265))
     (stroke (width 0) (type default))
@@ -388,10 +396,35 @@
     (uuid bcc720ad-7369-4e10-a30b-c1d74f573f78)
   )
 
+  (symbol (lib_id "power:GND") (at 160.655 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 34fcd1f6-8772-4ee1-89b2-e90f9021b711)
+    (property "Reference" "#PWR059" (at 160.655 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 160.655 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 160.655 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 160.655 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e711057e-8270-4e54-9842-b66ca3ccf32b))
+    (instances
+      (project "UMRT_FC_R2"
+        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/92580f07-8c4c-4842-873e-67db8948eb3d"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 108.585 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2e5002f-ce0c-4c53-911e-c392b7537d34)
-    (property "Reference" "#PWR059" (at 108.585 80.645 0)
+    (property "Reference" "#PWR058" (at 108.585 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 108.585 72.39 0)
@@ -405,9 +438,9 @@
     )
     (pin "1" (uuid 55830d1c-36d4-4256-b8cb-c5b42b08176a))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/92580f07-8c4c-4842-873e-67db8948eb3d"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -416,7 +449,7 @@
   (symbol (lib_id "Device:R_Small") (at 108.585 80.645 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2dd110c-dac8-4993-ad90-1a294e4bb635)
-    (property "Reference" "R22" (at 111.125 79.375 0)
+    (property "Reference" "R19" (at 111.125 79.375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 111.125 81.915 0)
@@ -431,9 +464,9 @@
     (pin "1" (uuid c65c4d3e-d564-4ffb-b10f-15629ad15d6b))
     (pin "2" (uuid 4f4cbd16-0d23-4090-848d-63b1193e38cf))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/92580f07-8c4c-4842-873e-67db8948eb3d"
-          (reference "R22") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -442,7 +475,7 @@
   (symbol (lib_id "power:GND") (at 92.075 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb25f373-c069-4fed-8d34-8a1fe3ad8e60)
-    (property "Reference" "#PWR058" (at 92.075 103.505 0)
+    (property "Reference" "#PWR057" (at 92.075 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.075 101.6 0)
@@ -456,9 +489,9 @@
     )
     (pin "1" (uuid dcc30376-ab81-4b23-bfcb-edb9a8bd4e54))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/92580f07-8c4c-4842-873e-67db8948eb3d"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -467,7 +500,7 @@
   (symbol (lib_id "power:+3V3") (at 92.075 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dff34a2a-f701-474e-8c21-819a2753bcfe)
-    (property "Reference" "#PWR057" (at 92.075 93.345 0)
+    (property "Reference" "#PWR056" (at 92.075 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 92.075 85.09 0)
@@ -481,9 +514,9 @@
     )
     (pin "1" (uuid 3e4642da-a4e0-414f-9136-b5da27a09723))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/92580f07-8c4c-4842-873e-67db8948eb3d"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -514,12 +547,12 @@
     (pin "8" (uuid e9032f79-0f5f-494b-b549-fc711c230afe))
     (pin "9" (uuid 4083d832-7abe-464f-86fc-e902e286559d))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "J12") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/92580f07-8c4c-4842-873e-67db8948eb3d"
-          (reference "J12") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -528,7 +561,7 @@
   (symbol (lib_id "Device:C_Small") (at 92.075 93.345 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f596fae5-156d-41a5-8a89-33c9abdbb8bc)
-    (property "Reference" "C38" (at 95.25 92.0813 0)
+    (property "Reference" "C31" (at 95.25 92.0813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 95.25 94.6213 0)
@@ -543,9 +576,9 @@
     (pin "1" (uuid 93c1aa36-2b53-46ec-bdf6-3cc317c009aa))
     (pin "2" (uuid 5db399de-7e37-4825-ba19-507a63d5bf1c))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/92580f07-8c4c-4842-873e-67db8948eb3d"
-          (reference "C38") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )

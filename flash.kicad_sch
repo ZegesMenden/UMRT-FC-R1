@@ -373,7 +373,7 @@
     )
     (pin "1" (uuid d5098671-aa57-424f-a488-73875232b6c5))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR059") (unit 1)
         )
@@ -398,7 +398,7 @@
     (property "Value" "100n" (at 101.8032 88.392 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 104.14 89.535 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 104.14 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 89.535 0)
@@ -407,12 +407,12 @@
     (pin "1" (uuid c9d2243f-280d-438c-95ef-c9d84b97d6fa))
     (pin "2" (uuid ebb02c45-5a91-4d15-ac4f-8564825b290c))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "C38") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/e0cc0fcc-dbf5-4529-bef1-fe207310c36c"
-          (reference "C39") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
       (project "EUROPA_R2"
@@ -447,12 +447,12 @@
     (pin "7" (uuid fa16d686-e054-4983-8492-685d6450efbc))
     (pin "8" (uuid fa27a8f1-2ce9-4209-b352-0ea86ab44a0f))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "U10") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/e0cc0fcc-dbf5-4529-bef1-fe207310c36c"
-          (reference "U11") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
       (project "EUROPA_R2"
@@ -480,7 +480,7 @@
     )
     (pin "1" (uuid 37ff7956-663f-4f1e-8dac-4b249e48fd2b))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR062") (unit 1)
         )
@@ -505,7 +505,7 @@
     (property "Value" "4.7k" (at 112.6236 92.583 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 111.125 91.44 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 111.125 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.125 91.44 0)
@@ -514,12 +514,12 @@
     (pin "1" (uuid 8b3b6246-ef3a-4d8e-9b27-aed384b135b0))
     (pin "2" (uuid fec28f78-b41f-4d70-a339-18518afa8d81))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "R19") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/e0cc0fcc-dbf5-4529-bef1-fe207310c36c"
-          (reference "R23") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "EUROPA_R2"
@@ -547,7 +547,7 @@
     )
     (pin "1" (uuid 560b7704-2008-4115-88e2-29c6aec6079b))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR060") (unit 1)
         )
@@ -580,7 +580,7 @@
     )
     (pin "1" (uuid efd5f41d-e004-448f-a73a-2d8575fdde4c))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR061") (unit 1)
         )

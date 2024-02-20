@@ -713,7 +713,7 @@
     )
     (pin "1" (uuid 2693b335-1e7d-492c-ab6e-f04b4c31527a))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR09") (unit 1)
         )
@@ -721,7 +721,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -744,7 +744,7 @@
     )
     (pin "1" (uuid 1e449140-340f-43f8-b610-e02e3f7f351c))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR010") (unit 1)
         )
@@ -752,7 +752,7 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -780,7 +780,7 @@
     (pin "5" (uuid c4cb0827-ce34-4f9c-b478-9d51e77d1a3f))
     (pin "6" (uuid b4cb256c-bb23-476a-848c-e8061d6702ce))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "U1") (unit 1)
         )
@@ -788,7 +788,7 @@
           (reference "U2") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "U10") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -811,7 +811,7 @@
     )
     (pin "1" (uuid 701f7a36-9800-4be7-a46a-1a7583c3cc89))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR013") (unit 1)
         )
@@ -819,7 +819,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -828,7 +828,7 @@
   (symbol (lib_id "Device:D_Small") (at 71.755 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b2d1dc0-5a0e-415a-b9ad-77fa56f7cd56)
-    (property "Reference" "D5" (at 66.675 65.405 90)
+    (property "Reference" "D2" (at 66.675 65.405 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MBR10" (at 64.135 67.31 90)
@@ -849,9 +849,9 @@
     (pin "1" (uuid 4452fa4e-5a16-4345-b13f-d96ef16229db))
     (pin "2" (uuid a68760a2-db73-491f-888e-26bcd54e1f32))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -860,7 +860,7 @@
   (symbol (lib_id "power:+3V3") (at 147.955 78.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 556f5a93-826d-4961-99af-000b08c0402e)
-    (property "Reference" "#PWR056" (at 147.955 81.915 0)
+    (property "Reference" "#PWR055" (at 147.955 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 147.32 74.295 0)
@@ -874,9 +874,9 @@
     )
     (pin "1" (uuid 9a103584-0547-4f9b-a124-9d63180781be))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -885,7 +885,7 @@
   (symbol (lib_id "power:VBUS") (at 77.47 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bf981a1-0b24-479d-9cad-cabb5256a587)
-    (property "Reference" "#PWR050" (at 77.47 66.675 0)
+    (property "Reference" "#PWR049" (at 77.47 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 77.47 58.42 0)
@@ -899,9 +899,9 @@
     )
     (pin "1" (uuid 0d8d5071-cb68-429f-b67b-b6bab47e6974))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -925,7 +925,7 @@
     (pin "1" (uuid 3f307b77-4e39-4355-947d-6cff4f67ab42))
     (pin "2" (uuid 2d73ffe2-ab86-4234-a6ac-ce13a374b06f))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "C2") (unit 1)
         )
@@ -933,7 +933,7 @@
           (reference "C5") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "C35") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -956,12 +956,12 @@
     )
     (pin "1" (uuid 0e8d72c0-63fd-4dd5-8d9f-7dba4ce5c5b7))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/49f25279-4955-4ac4-b0d8-280c183177c3"
           (reference "#PWR02") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -985,7 +985,7 @@
     (pin "1" (uuid b3622eaf-7a4d-4811-85ba-2ca7e1e4ccab))
     (pin "2" (uuid ce26dae7-947c-41b1-a150-e7152ef8a147))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "L1") (unit 1)
         )
@@ -1017,7 +1017,7 @@
     (pin "1" (uuid 03dd5cb5-4757-459b-abd1-cbe0347fb1c0))
     (pin "2" (uuid 3c193ca5-557d-4663-8cef-05823fc77e28))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "R13") (unit 1)
         )
@@ -1025,7 +1025,7 @@
           (reference "R2") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "R20") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1048,7 +1048,7 @@
     )
     (pin "1" (uuid 9db619d2-1c34-4097-aee7-fa91a8b756b7))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR011") (unit 1)
         )
@@ -1056,7 +1056,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -1080,7 +1080,7 @@
     (pin "1" (uuid 227ae7a3-30d6-43d6-bd99-d74795c56714))
     (pin "2" (uuid 01a85af4-c944-4afc-8eaf-fee794fefb8a))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "C5") (unit 1)
         )
@@ -1088,7 +1088,7 @@
           (reference "C2") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "C33") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1097,7 +1097,7 @@
   (symbol (lib_id "Device:D_Small") (at 77.47 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1d3bb58-3d7b-4fdd-a49a-6cc29cc658b4)
-    (property "Reference" "D6" (at 80.01 64.77 90)
+    (property "Reference" "D3" (at 80.01 64.77 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MBR10" (at 80.01 67.31 90)
@@ -1118,9 +1118,9 @@
     (pin "1" (uuid d1721c62-4535-4f7e-a49a-fe4aa1c1cdb9))
     (pin "2" (uuid 93f3c926-7f14-48a5-84b2-d5da0cdeb67b))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "D6") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1143,7 +1143,7 @@
     )
     (pin "1" (uuid cc167ba1-40a0-4a2e-93f5-4bc245724d04))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "#PWR012") (unit 1)
         )
@@ -1151,7 +1151,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1175,7 +1175,7 @@
     (pin "1" (uuid fed76956-4b8e-4389-89ba-f42fbfea21ce))
     (pin "2" (uuid cdc3b143-8a1e-4396-952f-09c2ca21b4a1))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "R14") (unit 1)
         )
@@ -1183,7 +1183,7 @@
           (reference "R3") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "R21") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1207,7 +1207,7 @@
     (pin "1" (uuid 16f3bb7f-4b11-4133-a06e-667c448dfa8a))
     (pin "2" (uuid 34fec35f-3b46-4c4c-bad8-49ce586283ca))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "C1") (unit 1)
         )
@@ -1215,7 +1215,7 @@
           (reference "C4") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "C34") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1239,7 +1239,7 @@
     (pin "1" (uuid 740ca899-5318-4e49-83bc-3d12691fa692))
     (pin "2" (uuid 3048624f-a63e-43bd-a985-841efdec997c))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "C4") (unit 1)
         )
@@ -1247,7 +1247,7 @@
           (reference "C8") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "C37") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -1271,7 +1271,7 @@
     (pin "1" (uuid a0cc146a-95ef-4c7d-88a4-4b1bece84c23))
     (pin "2" (uuid 070e5b88-ef91-4e93-9b71-7fa7036c6d9b))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f"
           (reference "C3") (unit 1)
         )
@@ -1279,7 +1279,7 @@
           (reference "C7") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "C36") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )

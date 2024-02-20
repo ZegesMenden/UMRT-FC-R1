@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 3ba5f049-5267-4df1-ab66-6b34752e5de0)
+  (uuid 484b13b8-12fb-413e-9e55-936dc12eeded)
 
   (paper "A4")
 
@@ -338,19 +338,11 @@
     (stroke (width 0) (type default))
     (uuid 35fc7d68-1f8d-4667-b89d-37ae8e013a72)
   )
-  (wire (pts (xy 190.5 99.06) (xy 190.5 100.33))
-    (stroke (width 0) (type default))
-    (uuid 36054b83-31a2-4a12-bac9-cae8c25cd4c4)
-  )
   (wire (pts (xy 80.01 91.44) (xy 80.01 92.71))
     (stroke (width 0) (type default))
     (uuid 60486669-2f96-4823-b166-15072a7332c4)
   )
-  (wire (pts (xy 198.12 99.06) (xy 198.12 100.33))
-    (stroke (width 0) (type default))
-    (uuid 605b7363-d895-47f3-b406-06c648dfa923)
-  )
-  (wire (pts (xy 160.02 99.06) (xy 160.02 100.33))
+  (wire (pts (xy 116.84 93.345) (xy 116.84 94.615))
     (stroke (width 0) (type default))
     (uuid 6623101a-5f0b-46b1-88ba-042aedf78df1)
   )
@@ -362,15 +354,11 @@
     (stroke (width 0) (type default))
     (uuid 6e06eba3-340e-47ef-80b5-52d1bebc25cc)
   )
-  (wire (pts (xy 182.88 92.71) (xy 182.88 93.98))
-    (stroke (width 0) (type default))
-    (uuid 77c7844f-2d6d-42e6-b29b-5abff9d5a8a7)
-  )
-  (wire (pts (xy 167.64 92.71) (xy 167.64 93.98))
+  (wire (pts (xy 124.46 86.995) (xy 124.46 88.265))
     (stroke (width 0) (type default))
     (uuid 8cd3ddef-bf25-4f4e-8a66-3ba4abd6996c)
   )
-  (wire (pts (xy 160.02 92.71) (xy 160.02 93.98))
+  (wire (pts (xy 116.84 86.995) (xy 116.84 88.265))
     (stroke (width 0) (type default))
     (uuid a60c8035-45cd-4c01-aa61-535fa0af8b1f)
   )
@@ -382,19 +370,7 @@
     (stroke (width 0) (type default))
     (uuid c2fbbb3b-3c15-425f-be36-4744e1c1f8d5)
   )
-  (wire (pts (xy 175.26 99.06) (xy 175.26 100.33))
-    (stroke (width 0) (type default))
-    (uuid cb79dcea-fb0d-42fe-85d3-a3aa0c78b9ac)
-  )
-  (wire (pts (xy 190.5 92.71) (xy 190.5 93.98))
-    (stroke (width 0) (type default))
-    (uuid ccbf05ba-297b-4523-b4b9-a104161bd5a0)
-  )
-  (wire (pts (xy 175.26 92.71) (xy 175.26 93.98))
-    (stroke (width 0) (type default))
-    (uuid d81dc03b-807a-455f-8ec2-db62810f6f91)
-  )
-  (wire (pts (xy 167.64 99.06) (xy 167.64 100.33))
+  (wire (pts (xy 124.46 93.345) (xy 124.46 94.615))
     (stroke (width 0) (type default))
     (uuid e1521d61-3c8d-4379-8e96-9c06bee6eb50)
   )
@@ -402,92 +378,40 @@
     (stroke (width 0) (type default))
     (uuid eac89a09-536a-479a-9d60-19ca4ee783bb)
   )
-  (wire (pts (xy 198.12 92.71) (xy 198.12 93.98))
-    (stroke (width 0) (type default))
-    (uuid eea3c4f1-d206-4b45-86b5-1480492bba76)
-  )
-  (wire (pts (xy 182.88 99.06) (xy 182.88 100.33))
-    (stroke (width 0) (type default))
-    (uuid f16124b9-4cd0-4fc1-9bfd-84b67c0ebf63)
-  )
 
-  (hierarchical_label "BUCK_EN_B" (shape input) (at 167.64 87.63 90) (fields_autoplaced)
+  (hierarchical_label "BUCK_EN_B" (shape input) (at 124.46 81.915 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 49ef8582-54e2-463b-83ac-fb7c5f385c9d)
   )
-  (hierarchical_label "SOLENOID_1A" (shape input) (at 175.26 87.63 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 69d18f6a-e587-4f42-b1db-1235de03be02)
-  )
-  (hierarchical_label "BUCK_EN_A" (shape input) (at 160.02 87.63 90) (fields_autoplaced)
+  (hierarchical_label "BUCK_EN_A" (shape input) (at 116.84 81.915 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7853f71d-d1fc-4e62-833c-886df8f7c556)
   )
-  (hierarchical_label "SOLENOID_2A" (shape input) (at 190.5 87.63 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7eac1c14-79bb-4f99-b531-4d4ffa6772c9)
-  )
-  (hierarchical_label "SOLENOID_1B" (shape input) (at 182.88 87.63 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9717999d-dbfb-4aeb-88f5-45ea637b3d21)
-  )
-  (hierarchical_label "SOLENOID_2B" (shape input) (at 198.12 87.63 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 98dd0081-0240-4fcc-9e13-6bf5c06c7cdc)
-  )
 
-  (symbol (lib_id "Device:LED_Small") (at 167.64 90.17 90) (unit 1)
+  (symbol (lib_id "Device:LED_Small") (at 124.46 84.455 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c34f4ee-e7af-45be-b56c-4bb705a3620c)
-    (property "Reference" "D8" (at 168.91 88.9 90)
+    (property "Reference" "D8" (at 125.73 83.185 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (at 168.91 91.44 90)
+    (property "Value" "LED" (at 125.73 85.725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 167.64 90.17 90)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 124.46 84.455 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 167.64 90.17 90)
+    (property "Datasheet" "~" (at 124.46 84.455 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6a51fe4c-12c7-46a3-b47a-1ce56c29681e))
     (pin "2" (uuid bfb98a22-f02d-477b-8c78-38b100a218b8))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "D8") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 198.12 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 15fd655a-98ca-415f-a8e1-4ac9298dc778)
-    (property "Reference" "#PWR053" (at 198.12 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 198.12 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 198.12 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 198.12 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c8d71a69-52c7-469e-acce-1b4aad186a2d))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "#PWR075") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -511,213 +435,41 @@
     (pin "1" (uuid 2e1b7e73-9a0f-4d45-a989-dc605b55125e))
     (pin "2" (uuid bf1ddf5b-a089-452d-b6e5-1a20164f95f4))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "R14") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "R25") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 198.12 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 251ffa27-9307-4576-a86f-9d157e61421e)
-    (property "Reference" "R15" (at 199.39 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5k" (at 199.39 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 198.12 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 198.12 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 23c024c7-a5a2-4e08-8e8a-933b697d4ac4))
-    (pin "2" (uuid 27cfa568-50c6-4c23-a481-686db4b598b0))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "R15") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "R32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 175.26 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2f8180e2-2d4d-4d42-a5cb-a051fc28012a)
-    (property "Reference" "R15" (at 176.53 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5k" (at 176.53 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 175.26 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 175.26 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 95fd4b5c-9f02-4fce-b8fb-d40ab10ba6e0))
-    (pin "2" (uuid 7d2af9bb-fb0d-4869-aad0-253067e9b4fb))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "R15") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "R29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED_Small") (at 182.88 90.17 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 31fdba3f-557f-4aaa-813d-15b9fc4060d8)
-    (property "Reference" "D8" (at 184.15 88.9 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 184.15 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 182.88 90.17 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 182.88 90.17 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 27729d28-6fd2-4101-b951-10fca7b97f5f))
-    (pin "2" (uuid ff6b3d53-a733-423c-ab31-2d3467135598))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "D8") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 190.5 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3e2999cf-d005-4523-ba70-79c693bf6ebe)
-    (property "Reference" "R15" (at 191.77 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5k" (at 191.77 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 190.5 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 190.5 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ed46d567-cd00-4c45-b0ac-3f788a7332a1))
-    (pin "2" (uuid 5e15c5c7-b3d9-4bcf-ba02-33b0c150e006))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "R15") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "R31") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED_Small") (at 160.02 90.17 90) (unit 1)
+  (symbol (lib_id "Device:LED_Small") (at 116.84 84.455 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45c4b857-4df7-49b0-a39d-586df1510b4a)
-    (property "Reference" "D8" (at 161.29 88.9 90)
+    (property "Reference" "D8" (at 118.11 83.185 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (at 161.29 91.44 90)
+    (property "Value" "LED" (at 118.11 85.725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 160.02 90.17 90)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 116.84 84.455 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 160.02 90.17 90)
+    (property "Datasheet" "~" (at 116.84 84.455 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e44c2e17-46d0-4de6-b5c7-c341d92df951))
     (pin "2" (uuid bfaf6e8f-f292-443e-8a1a-c770027b5a9d))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "D8") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 182.88 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 48b9eb5f-2b65-4b4d-9419-2443de129387)
-    (property "Reference" "#PWR053" (at 182.88 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 182.88 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 182.88 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 182.88 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9c61c9c6-f05d-476d-bf59-e9b8400d2d7a))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "#PWR073") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 190.5 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 716b80aa-e2c4-47ff-96e8-ebdf54b94698)
-    (property "Reference" "#PWR053" (at 190.5 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 190.5 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 190.5 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 190.5 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5f9608b1-fa3a-46ef-818f-9d758f38c975))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "#PWR074") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -741,7 +493,36 @@
     (pin "1" (uuid b9eefa52-0ab6-451a-b56b-0b250d1c16d0))
     (pin "2" (uuid e05f99c1-ddda-48f3-9063-862bf8879981))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
+        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
+          (reference "R15") (unit 1)
+        )
+        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
+          (reference "R21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 116.84 90.805 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 85fe4066-e663-4f89-af60-8e67d9e390ad)
+    (property "Reference" "R15" (at 118.11 89.535 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "5k" (at 118.11 92.075 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.84 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.84 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c4b20f0b-20d7-4ced-9d19-f189f2ad139e))
+    (pin "2" (uuid c343864b-3034-4b40-a4b4-1dfd9fee4669))
+    (instances
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "R15") (unit 1)
         )
@@ -752,53 +533,24 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 160.02 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 85fe4066-e663-4f89-af60-8e67d9e390ad)
-    (property "Reference" "R15" (at 161.29 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5k" (at 161.29 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 160.02 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 160.02 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c4b20f0b-20d7-4ced-9d19-f189f2ad139e))
-    (pin "2" (uuid c343864b-3034-4b40-a4b4-1dfd9fee4669))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "R15") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "R27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 160.02 100.33 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 116.84 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 879e91df-01e8-4d24-8209-fa6372f2879c)
-    (property "Reference" "#PWR053" (at 160.02 106.68 0)
+    (property "Reference" "#PWR053" (at 116.84 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 160.02 104.14 0)
+    (property "Value" "GND" (at 116.84 98.425 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 160.02 100.33 0)
+    (property "Footprint" "" (at 116.84 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 160.02 100.33 0)
+    (property "Datasheet" "" (at 116.84 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aefef839-c11f-403e-9fed-f9d30b50fcf5))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "#PWR053") (unit 1)
         )
@@ -809,145 +561,58 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_Small") (at 198.12 90.17 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8a875bba-8adf-4cd8-a852-03d86955a2ac)
-    (property "Reference" "D8" (at 199.39 88.9 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 199.39 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 198.12 90.17 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 198.12 90.17 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 01d60317-1655-438e-856d-7d11218a8d06))
-    (pin "2" (uuid 493283e8-7e49-4ad7-82d1-ac352c7171db))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "D8") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 167.64 96.52 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 124.46 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 957a665a-102d-4a5d-b1cb-6d9609e5f172)
-    (property "Reference" "R15" (at 168.91 95.25 0)
+    (property "Reference" "R15" (at 125.73 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5k" (at 168.91 97.79 0)
+    (property "Value" "5k" (at 125.73 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 167.64 96.52 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 124.46 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 167.64 96.52 0)
+    (property "Datasheet" "~" (at 124.46 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f73b0f5a-fd6a-4078-bfc7-a37e6201c860))
     (pin "2" (uuid cb61541a-5232-4e0c-b96a-287a310e8c3c))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "R15") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "R28") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:LED_Small") (at 175.26 90.17 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 95e3fe5d-ff5a-4bdb-aef6-e1b06172328f)
-    (property "Reference" "D8" (at 176.53 88.9 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 176.53 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 175.26 90.17 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 175.26 90.17 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5542cf67-e1f5-4f3b-96e9-c190350ad7a3))
-    (pin "2" (uuid 888e6dd9-9f31-4963-8b12-6b271aa818d9))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "D8") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 167.64 100.33 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 124.46 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a77ba6e6-3333-45a2-ad4b-79e0c0f56fd5)
-    (property "Reference" "#PWR053" (at 167.64 106.68 0)
+    (property "Reference" "#PWR053" (at 124.46 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 167.64 104.14 0)
+    (property "Value" "GND" (at 124.46 98.425 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 167.64 100.33 0)
+    (property "Footprint" "" (at 124.46 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 167.64 100.33 0)
+    (property "Datasheet" "" (at 124.46 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d938e4b0-96a9-4004-89e4-1528f4847f7d))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "#PWR053") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
           (reference "#PWR071") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED_Small") (at 190.5 90.17 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b24fe2f5-5523-4f46-8185-57dc2597522d)
-    (property "Reference" "D8" (at 191.77 88.9 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 191.77 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 190.5 90.17 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 190.5 90.17 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eaadaec2-4675-4a49-ba63-6c14f9aef391))
-    (pin "2" (uuid 2e12b3a1-05c9-4573-99af-bf4d63518643))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "D8") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D14") (unit 1)
         )
       )
     )
@@ -970,7 +635,7 @@
     )
     (pin "1" (uuid 7bdb6624-c9cd-4297-9198-b04402163370))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "#PWR047") (unit 1)
         )
@@ -999,12 +664,12 @@
     (pin "1" (uuid 4e296294-dcc1-4cdf-9fb1-0c2ee18b40a2))
     (pin "2" (uuid 364c8e67-1d70-4b54-8d42-f5ae435a35ae))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "D5") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D8") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1027,7 +692,7 @@
     )
     (pin "1" (uuid 62a5f7ce-27c7-4b84-9e61-c52a49eb05d9))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a03f2cbe-6011-4b4c-86a3-8658f5789a8d"
           (reference "#PWR036") (unit 1)
         )
@@ -1058,7 +723,7 @@
     )
     (pin "1" (uuid fd2e5b2c-b70d-49a5-9dba-0953466bad9a))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "#PWR048") (unit 1)
         )
@@ -1087,12 +752,12 @@
     (pin "1" (uuid 0d60a36c-5543-4e09-aba7-45dadda996b4))
     (pin "2" (uuid 7b533086-31fb-4eab-833f-f9ccb2592297))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "R15") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "R26") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1115,7 +780,7 @@
     )
     (pin "1" (uuid 2e93789f-bdd9-4b18-9265-c7dc7e8e4f3d))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
           (reference "#PWR068") (unit 1)
         )
@@ -1141,12 +806,12 @@
     (pin "1" (uuid 72f87e15-1b54-4633-9c04-2289cabb27f2))
     (pin "2" (uuid f6686af7-dc62-436c-8185-6f2dbc9ae010))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "D8") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D9") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1169,7 +834,7 @@
     )
     (pin "1" (uuid d9609e45-a3b6-4681-b37c-98093521666f))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "#PWR053") (unit 1)
         )
@@ -1198,41 +863,12 @@
     (pin "1" (uuid fa78a800-5206-49e9-9fa7-a6cc42ee0498))
     (pin "2" (uuid b048c803-9d18-4188-8fad-6957653c8db8))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "D8") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 182.88 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ea88e8b7-d3c5-4873-aecd-7532ebbbb1fb)
-    (property "Reference" "R15" (at 184.15 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5k" (at 184.15 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 182.88 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 182.88 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b71b035a-fe10-4b14-a414-c455fc31c778))
-    (pin "2" (uuid b4106adc-76aa-4601-b869-1d0ea061d6b9))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "R15") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "R30") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1255,40 +891,12 @@
     )
     (pin "1" (uuid 87420828-cf30-45c2-a4a4-d4335ee51714))
     (instances
-      (project "UMRT_FC_R1"
+      (project "UMRT_FC_R2"
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
           (reference "#PWR053") (unit 1)
         )
         (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
           (reference "#PWR065") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 175.26 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ff35509d-5770-4e95-91c8-e74b72407c74)
-    (property "Reference" "#PWR053" (at 175.26 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 175.26 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 175.26 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 175.26 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 298f7b43-6c60-4eef-b4a7-df4d1edabafe))
-    (instances
-      (project "UMRT_FC_R1"
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/a58a71ea-f1fa-4532-9300-f7482fcf2a19"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/27c40824-3c02-48dc-87e8-ac576671a38f/b616448c-a064-4b7c-b46b-5f173e414909"
-          (reference "#PWR072") (unit 1)
         )
       )
     )
